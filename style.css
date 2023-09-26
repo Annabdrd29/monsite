@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  font-family:arial black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  height: 70px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+/*Banner*/
+body {
+  margin: 0;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://retaildesignblog.net/wp-content/uploads/2015/07/EASY-Skate-Surf-Concept-Store-Pasig-City-Philippines-08.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 300px;
+  padding: 150px;
+}
+
+.banner h1, .banner p {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+
+.section {
+  padding-top: 30px;
+  margin: 0 150px;
+}
+
+.title {
+  padding-bottom: 16px;
+  color: black;
+  font-weight: 700;
+  font-family: arial black;
+}
+
+
+.title {
+  padding-bottom: 16px;
+  color: black;
+  font-weight: 700;
+}
+
+.section {
+  padding-top: 30px;
+  margin: 0 150px;
+  margin-bottom: 30px;
+  font-family: arial;
+}
+
+/*Grid*/
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  font-family: arial;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  font-family: arial;
+}
+
+
+
+
+
+/*Footer*/
+
+.footer {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: white;
+  font-family: arial;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 10;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 10;
+}
+.footer .fa-heart {
+  color: white;
+}
+.footer-copyright{
+  color: white;
+  opacity: 10;
+}
